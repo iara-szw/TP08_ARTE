@@ -1,0 +1,60 @@
+*{
+
+    margin:0%; border:1px solid black;
+    padding:0%
+}
+
+header{
+    clear:both;
+    display:block;
+    overflow: hidden;
+    width:99%;
+    padding:1%;
+   
+}
+
+header div{
+    float:left;
+}
+header h1{
+    font-size:xx-large;
+}
+header h2{
+    font-size:large;
+    width:100%;
+}
+nav{
+    float:right;
+    width:45%;
+    margin-top:0.7%;
+   
+}
+nav li{
+    float:left;
+    margin:2%; 
+    margin-left:3%;
+    list-style: none;
+}
+nav li a{
+    text-align:center;
+    text-decoration:none;
+}
+main{
+    clear:both;
+
+}
+section h1{
+    margin-top:1%;
+    margin-left:0.7%;
+}
+section h2{
+    margin-left:0.7%;
+    font-size:medium;
+}git
+
+section div{
+    display:inline-block;
+    width:29%;
+    padding:0.5%;
+    margin:1%;
+}

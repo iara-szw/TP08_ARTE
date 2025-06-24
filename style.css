@@ -1,7 +1,9 @@
 *{
 
     margin:0%; border:1px solid black;
-    padding:0%
+    padding:0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 
 header{
@@ -10,6 +12,10 @@ header{
     overflow: hidden;
     width:99%;
     padding:1%;
+   background-image: url(img/noche.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
    
 }
 
@@ -18,6 +24,7 @@ header div{
 }
 header h1{
     font-size:xx-large;
+    color:white;
 }
 header h2{
     font-size:large;
@@ -38,6 +45,7 @@ nav li{
 nav li a{
     text-align:center;
     text-decoration:none;
+    color:white;
 }
 main{
     clear:both;
@@ -50,11 +58,28 @@ section h1{
 section h2{
     margin-left:0.7%;
     font-size:medium;
-}git
+}
 
 section div{
     display:inline-block;
     width:29%;
     padding:0.5%;
     margin:1%;
+    border-radius: 15px;
+}
+section div:hover{
+    width:30%;
+}
+div img{
+    width:30%;
+}
+
+section div h2{
+    margin-top:2%;
+    padding:0.5%;
+}
+
+section div h3{
+    margin-top:2%;
+    padding:0.5%;
 }

@@ -69,7 +69,14 @@ section h2{
     font-size:medium;
 }
 
-section div{
+.contenedor{
+    display: flex;
+    background-color: transparent;
+    color: none;
+    border: none;
+    width: 90%;
+}
+.contenedor div{
     display:inline-block;
     width:25%;
     padding-top:0.5%;
@@ -80,10 +87,10 @@ section div{
     border-radius: 10px;
     background: #f8eef8;
 }
-section div:hover{
+.contenedor div:hover{
     width:26%;
     margin-bottom:2%;
-    box-shadow: 0px 5px  rgb(214, 213, 213) ;
+    box-shadow: -1px 20px 20px rgb(214, 213, 213);
 }
 div img{
     width:40%;
@@ -137,4 +144,86 @@ footer nav li{
 footer nav li a{
    color:black;
    text-decoration: none;
+}
+
+
+@media(width<=1024px){
+header nav{
+    width:65%;
+}
+nav li{
+    font-size: medium;
+}
+footer{
+    margin-top:5%;
+}
+}
+
+@media(width<=768px){
+    header div{
+        float:none;
+        clear:both;
+        margin-left:5%;
+    }
+    header nav{
+        float:none;
+        clear:both;
+        width:100%; 
+    }
+    section h1{
+        margin-left:5%;
+    }
+    section h2{
+        margin-left:5%;
+    }
+    .contenedor{
+        margin-left:5%;
+    }
+    .contenedor div{
+        width:40%;
+    }
+}
+
+@media(width<=425px){
+    nav li{
+        font-size: small;
+    }
+    section h1{
+        text-align:center;
+    }
+    section h2{
+        margin-left:9%;
+    }
+    .contenedor{
+        flex-wrap:wrap;
+    }
+    .contenedor div{
+        width:50%;
+        padding: 2%;
+        margin-left: 25%;
+        margin-bottom:2%;
+    }
+    .contenedor h3{
+        font-size:x-small;
+    }
+    .contenedor div h2{
+        margin-left:3%;
+    }
+    footer{
+        padding-top:3%;
+        padding-bottom:3%;
+
+    }
+}
+
+@media(width<=320px){
+    header nav{
+        margin-top:5%;
+    }
+    nav li{
+        font-size: x-small;
+    }
+    section h2{
+    font-size:small;
+    }
 }

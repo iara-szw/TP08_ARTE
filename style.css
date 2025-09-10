@@ -189,8 +189,9 @@ footer{
         font-size: small;
     }
     section h1{
-        text-align:center;
-        margin-top:2%;
+        text-align:left;
+        margin-top:5%;
+        margin-left:9%;
     }
     section h2{
         margin-left:9%;
@@ -201,19 +202,30 @@ footer{
     .contenedor div{
         width:80%;
         padding: 2%;
+        margin-top:3%;
         margin-left: 10%;
         margin-bottom:2%;
     }
+    .contenedor div:hover{
+        width:90%;
+        margin-left:6%;
+    }
     .contenedor h3{
-        font-size:x-small;
+        font-size:smaller;
     }
     .contenedor div h2{
         margin-left:3%;
     }
     footer{
-        padding-top:3%;
-        padding-bottom:3%;
-
+        padding-top:5%;
+        padding-bottom:5%;
+        background-color: #f0dcf7;
+    }
+    footer div{
+        margin-left: 2%;
+    }
+    footer NAV{
+        margin-right: 2%;
     }
 }
 
